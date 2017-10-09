@@ -1,0 +1,206 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+body {
+    background-image: url(grfx/bg.jpg);
+}
+
+nav {
+  display: inline-block;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+}
+nav ul li a {
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.groottekstvlak {
+  height: auto;
+  width: 100%;
+  background-color: rgba(120, 120, 120, 0.3);
+  border: 2px solid #0d0d0d;
+  padding: 10px;
+}
+
+li:hover {
+  opacity: 0.3;
+}
+
+header {
+  background-color: rgb(13, 13, 13);
+  height: auto;
+  width: 106%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0 auto;
+  justify-content: center;
+  width: 106%;
+}
+
+.secondcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.nieuws {
+  height: auto;
+  width: 100%;
+  background-color: rgba(120, 120, 120, 0.3);
+  border: 1px solid #0d0d0d;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.addcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 106%;
+  opacity: 0.6
+  }
+
+.addcontainer ul li img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.nimg {
+  width: 80%;
+  border: 1px solid white;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+
+h1 {
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.nieuws p a {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: rgb(13, 13, 13);
+  height: auto;
+  width: 106%;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  .nimg {
+    display: inline;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .addcontainer ul li img {
+    height: 150px;
+  }
+
+  ul {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items:flex-start;
+  }
+
+  .nieuwscontainer {
+    width: 60%;
+    display: flex;
+  }
+
+  .secondcontainer {
+    display: flex;
+    flex-direction:row;
+    display: inline-block;
+
+  }
+
+  .nieuws {
+    width: 400px;
+    height: 500px;
+  }
+
+  .addcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    }
+
+  .addcontainer ul li img {
+    width: 300px;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .nimg {
+    width: 100%;
+  }
+
+  #dancingimg {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  nav ul li a {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  .groottekstvlak {
+    width: 800px;
+  }
+}
