@@ -37,7 +37,7 @@ nav ul li a {
   padding: 10px;
 }
 
-li:hover {
+.addcontainer a:hover {
   opacity: 0.3;
 }
 
@@ -76,7 +76,7 @@ main {
   opacity: 0.6
   }
 
-.addcontainer ul li img {
+.addcontainer a img {
   width: 100%;
   border: 1px solid black;
 }
